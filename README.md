@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dee-obuaya
 - 👀 I’m interested in development and cybersecurity
-- 🌱 I’m currently learning python and web3
+- 🌱 I’m currently learning python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
