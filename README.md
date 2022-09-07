@@ -1,7 +1,6 @@
-- 👋 Hi, I’m @dee-obuaya
-- 👀 I’m interested in development and cybersecurity
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on ...
+- 👋 Hi, I’m Dee
+- 👀 I’m interested in backend web development in python-flask
+- 💞️ I’m looking to collaborate on backend and API projects
 - 📫 How to reach me ...
 
 <!---
