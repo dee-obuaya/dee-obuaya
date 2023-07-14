@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    height: 100vh;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    height: auto;
+}
+
+svg {
+    height: auto;
+}
+
+#content {
+    height: auto;
+}
+
+#content .content-col {
+    padding: 0;
+    width: 100%;
+    display: grid;
+}
+
+#content .content-col div {
+    height: auto;
+}
+
+#content .content-col #name h1 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    /* padding-top: 1.8em; */
+    margin-bottom: 0.15em;
+    letter-spacing: 0.02em;
+}
+
+#content .content-col #about-me h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 1.15em;
+    letter-spacing: 0.02em;
+}
+
+#content .content-col #about-me h3:nth-child(2) {
+    font-weight: 100;
+    font-size: 1.05em;
+}
+
+#content .content-col #location {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+}
+
+#content .content-col #location h6 {
+    font-size: 0.7em;
+}
+
+#content .content-col #contact {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+#content .content-col #contact div {
+    margin-bottom: 1em;
+    height: auto;
+}
+
+#content .content-col #contact a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+#content .content-col #contact a span {
+    font-size: 1.05em;
+}
+
+#content .content-col #contact a:hover {
+    text-shadow: -2px -2px 2.5px #000;
+}
+
+#content .content-col #my-work {
+    margin-top: 4em;
+}
+
+#content .content-col #my-work a {
+    height: auto;
+    width: 7.5em;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+#content .content-col #my-work a.work {
+    border: 2px solid #000;
+}
+
+#content .content-col #my-work a.work:hover {
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+    box-shadow: -3px 3px 10px #414242;
+}
+
+#content .content-col #my-work a.cv {
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+#content .content-col #my-work a.cv:hover {
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    box-shadow: -3px 3px 8px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    #content .content-col #name h1 {
+        font-size: 2.2em;
+        padding-right: 0;
+        letter-spacing: 0.03em;
+    }
+
+    #content .content-col #about-me h3 {
+        font-size: 1.1em;
+        padding-right: 0;
+        letter-spacing: 0.01em;
+    }
+
+    #content .content-col #about-me h3:nth-child(2) {
+        font-size: 1em;
+        padding-right: 0;
+    }
+
+    #content .content-col #location {
+        padding-right: 0;
+    }
+
+    #content .content-col #location h6 {
+        font-size: 0.62em;
+    }
+
+    #content .content-col #contact {
+        padding-left: 0;
+        padding-top: 1.6em;
+        margin-top: 1.2em;
+    }
+
+    #content .content-col #contact a {
+        font-size: 0.6em;
+    }
+
+    #content .content-col #contact a span {
+        font-size: 1.2em;
+    }
+
+    #content .content-col #my-work {
+        padding-right: 0;
+        margin-top: 4em;
+    }
+
+    #content .content-col #my-work a {
+        font-size: 1.2em;
+        width: 10em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    #content .img-col {
+        padding: 0;
+        width: 38%;
+    }
+
+    #content .home-img img {
+        width: 95%;
+        height: 98%;
+        margin: 0.28em;
+    }
+
+    #content .content-col {
+        width: 62%;
+    }
+
+    #content .content-col #name h1 {
+        font-size: 1.85em;
+        padding-top: 1em;
+        padding-right: 0.5em;
+        margin-bottom: 0.06em;
+        letter-spacing: 0.01em;
+    }
+
+    #content .content-col #about-me h3{
+        font-size: 1.2em;
+        padding-right: 0.95em;
+        letter-spacing: 0.02em;
+    }
+
+    #content .content-col #about-me h3:nth-child(2) {
+        font-size: 1.1em;
+        padding-right: 1.2em;
+    }
+
+    #content .content-col #location {
+        padding-right: 1.55em;
+    }
+
+    #content .content-col #location h6 {
+        font-size: 0.68em;
+    }
+
+    #content .content-col #contact {
+        padding-left: 3.5em;
+        padding-top: 2em;
+        margin-top: 1.5em;
+    }
+
+    #content .content-col #my-work {
+        padding-top: 2em;
+        margin-top: 4em;
+    }
+
+    #content .content-col #my-work a {
+        font-size: 1.1em;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #content .img-col {
+        width: 35%;
+    }
+
+    #content .home-img img {
+        width: 98%;
+    }
+
+    #content .content-col {
+        padding: 0;
+        width: 65%;
+    }
+
+    #content .content-col div {
+        height: auto;
+    }
+
+    #content .content-col #name h1 {
+        font-size: 2.4em;
+        padding-right: 0.4em;
+        padding-top: 0.55em;
+        letter-spacing: 0.025em;
+    }
+
+    #content .content-col #about-me h3 {
+        font-size: 1.5em;
+        padding-right: 0.75em;
+        letter-spacing: 0.01em;
+    }
+
+    #content .content-col #about-me h3:nth-child(2) {
+        font-weight: 100;
+        font-size: 1.4em;
+        padding-right: 0.9em;
+    }
+
+    #content .content-col #location {
+        font-weight: lighter;
+        padding-right: 1.6em;
+    }
+
+    #content .content-col #contact {
+        padding-left: 4.6em;
+        padding-top: 3.2em;
+    }
+
+    #content .content-col #contact a span {
+        font-size: 1.4em;
+    }
+
+    #content .content-col #my-work a {
+        font-size: 1.15em;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    #content .img-col {
+        width: 38%;
+    }
+
+    #content .home-img img {
+        width: 98%;
+    }
+
+    #content .content-col {
+        width: 62%;
+    }
+
+    #content .content-col #name h1 {
+        font-size: 2.8em;
+        padding-right: 0.6em;
+        padding-top: 0.6em;
+    }
+
+    #content .content-col #about-me h3 {
+        font-size: 1.6em;
+        padding-right: 1.2em;
+    }
+
+    #content .content-col #about-me h3:nth-child(2) {
+        font-size: 1.5em;
+        padding-right: 1.4em;
+    }
+
+    #content .content-col #location {
+        font-size: 1.1em;
+        padding-right: 2.4em;
+    }
+
+    #content .content-col #contact {
+        padding-left: 9em;
+        padding-top: 3.2em;
+    }
+
+    #content .content-col #contact a svg {
+        width: 0.9em;
+    }
+
+    #content .content-col #contact a span {
+        font-size: 1.5em;
+    }
+
+    #content .content-col #my-work a {
+        font-size: 1.3em;
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    #content .content-col #name h1 {
+        font-size: 3em;
+        padding-right: 1em;
+    }
+
+
+    #content .content-col #about-me h3 {
+        font-size: 1.8em;
+        padding-right: 1.75em;
+    }
+
+    #content .content-col #about-me h3:nth-child(2) {
+        padding-right: 2.2em;
+    }
+
+    #content .content-col #location {
+        font-size: 1.2em;
+        padding-right: 3em;
+    }
+
+    #content .content-col #contact {
+        padding-left: 0;
+    }
+
+    #content .content-col #my-work a {
+        font-size: 1.5em;
+    }
+
+}
