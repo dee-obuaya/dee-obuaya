@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     emailTag = document.querySelector(".email")
-    mobileTag = document.querySelector(".mobile")
 
     emailTag.addEventListener("mouseover", function () {
         emailName = document.querySelector(".email-name");
@@ -13,30 +12,5 @@ document.addEventListener("DOMContentLoaded", function () {
         emailName.classList.add("invisible", "d-none");
         emailTag.setAttribute("href", "cyz@gmail.com");
     });
-
-
-    mobileTag.addEventListener("mouseover", function () {
-        mobileNo = document.querySelector(".mobile-no");
-        mobileNo.classList.remove("invisible", "d-none");
-        mobileTag.setAttribute("href", "tel:2347063529084");
-    });
-
-    mobileTag.addEventListener("mouseout", function () {
-        mobileNo = document.querySelector(".mobile-no");
-        mobileNo.classList.add("invisible", "d-none");
-        mobileTag.setAttribute("href", "tel:15555555555");
-    });
-
-    // mobileTag.addEventListener("touchstart", function () {
-    //     mobileNo = document.querySelector(".mobile-no");
-    //     mobileNo.classList.remove("invisible", "d-none");
-    //     mobileTag.setAttribute("href", "tel:2347063529084");
-    // });
-
-    // mobileTag.addEventListener("touchcancel", function () {
-    //     mobileNo = document.querySelector(".mobile-no");
-    //     mobileNo.classList.add("invisible", "d-none");
-    //     mobileTag.setAttribute("href", "tel:15555555555");
-    // });
 
 })
