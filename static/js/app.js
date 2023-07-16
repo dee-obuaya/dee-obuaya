@@ -18,25 +18,25 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileTag.addEventListener("mouseover", function () {
         mobileNo = document.querySelector(".mobile-no");
         mobileNo.classList.remove("invisible", "d-none");
-        emailTag.setAttribute("href", "tel:2347063529084");
+        mobileTag.setAttribute("href", "tel:2347063529084");
     });
 
-    mobile.addEventListener("mouseout", function () {
+    mobileTag.addEventListener("mouseout", function () {
         mobileNo = document.querySelector(".mobile-no");
         mobileNo.classList.add("invisible", "d-none");
-        emailTag.setAttribute("href", "tel:15555555555");
+        mobileTag.setAttribute("href", "tel:15555555555");
     });
 
-    mobileTag.addEventListener("touchstart", function () {
-        mobileNo = document.querySelector(".mobile-no");
-        mobileNo.classList.remove("invisible", "d-none");
-        emailTag.setAttribute("href", "tel:2347063529084");
-    });
+    // mobileTag.addEventListener("touchstart", function () {
+    //     mobileNo = document.querySelector(".mobile-no");
+    //     mobileNo.classList.remove("invisible", "d-none");
+    //     mobileTag.setAttribute("href", "tel:2347063529084");
+    // });
 
-    mobile.addEventListener("touchcancel", function () {
-        mobileNo = document.querySelector(".mobile-no");
-        mobileNo.classList.add("invisible", "d-none");
-        emailTag.setAttribute("href", "tel:15555555555");
-    });
+    // mobileTag.addEventListener("touchcancel", function () {
+    //     mobileNo = document.querySelector(".mobile-no");
+    //     mobileNo.classList.add("invisible", "d-none");
+    //     mobileTag.setAttribute("href", "tel:15555555555");
+    // });
 
 })
