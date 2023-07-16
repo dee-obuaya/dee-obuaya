@@ -32,7 +32,6 @@ svg {
 #content .content-col #name h1 {
     text-transform: uppercase;
     font-size: 1.8em;
-    /* padding-top: 1.8em; */
     margin-bottom: 0.15em;
     letter-spacing: 0.02em;
 }
@@ -44,7 +43,7 @@ svg {
     letter-spacing: 0.02em;
 }
 
-#content .content-col #about-me h3:nth-child(2) {
+#content .content-col #about-me h3:last-child {
     font-weight: 100;
     font-size: 1.05em;
 }
@@ -66,7 +65,7 @@ svg {
 }
 
 #content .content-col #contact div {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     height: auto;
 }
 
