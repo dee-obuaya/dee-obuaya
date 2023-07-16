@@ -26,4 +26,17 @@ document.addEventListener("DOMContentLoaded", function () {
         mobileNo.classList.add("invisible", "d-none");
         emailTag.setAttribute("href", "tel:15555555555");
     });
+
+    mobileTag.addEventListener("onmousedown", function () {
+        mobileNo = document.querySelector(".mobile-no");
+        mobileNo.classList.remove("invisible", "d-none");
+        emailTag.setAttribute("href", "tel:2347063529084");
+    });
+
+    mobile.addEventListener("onmouseup", function () {
+        mobileNo = document.querySelector(".mobile-no");
+        mobileNo.classList.add("invisible", "d-none");
+        emailTag.setAttribute("href", "tel:15555555555");
+    });
+
 })
