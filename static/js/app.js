@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     emailTag = document.querySelector(".email")
-    whatsappTag = document.querySelector(".whatsapp")
+    mobileTag = document.querySelector(".mobile")
 
     emailTag.addEventListener("mouseover", function () {
         emailName = document.querySelector(".email-name");
@@ -15,13 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    whatsappTag.addEventListener("mouseover", function () {
-        whatsappName = document.querySelector(".whtsapp");
-        whatsappName.classList.remove("invisible", "d-none");
+    mobileTag.addEventListener("mouseover", function () {
+        mobileNo = document.querySelector(".mobile-no");
+        mobileNo.classList.remove("invisible", "d-none");
+        emailTag.setAttribute("href", "tel:2347063529084");
     });
 
-    whatsappTag.addEventListener("mouseout", function () {
-        whatsappName = document.querySelector(".whtsapp");
-        whatsappName.classList.add("invisible", "d-none");
+    mobile.addEventListener("mouseout", function () {
+        mobileNo = document.querySelector(".mobile-no");
+        mobileNo.classList.add("invisible", "d-none");
+        emailTag.setAttribute("href", "tel:15555555555");
     });
 })
