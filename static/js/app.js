@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         emailTag.setAttribute("href", "tel:15555555555");
     });
 
-    mobileTag.addEventListener("onmousedown", function () {
+    mobileTag.addEventListener("onclick", function () {
         mobileNo = document.querySelector(".mobile-no");
         mobileNo.classList.remove("invisible", "d-none");
         emailTag.setAttribute("href", "tel:2347063529084");
