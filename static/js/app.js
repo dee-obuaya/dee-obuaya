@@ -1,17 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    linkedinTag = document.querySelector(".linkedin")
     emailTag = document.querySelector(".email")
     whatsappTag = document.querySelector(".whatsapp")
-
-    linkedinTag.addEventListener("mouseover", function () {
-        linkedinName = document.querySelector(".lnkd-name");
-        linkedinName.classList.remove("invisible", "d-none");
-    });
-
-    linkedinTag.addEventListener("mouseout", function () {
-        linkedinName = document.querySelector(".lnkd-name");
-        linkedinName.classList.add("invisible", "d-none");
-    });
 
     emailTag.addEventListener("mouseover", function () {
         emailName = document.querySelector(".email-name");
