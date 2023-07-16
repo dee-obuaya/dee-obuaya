@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
         emailTag.setAttribute("href", "tel:15555555555");
     });
 
-    mobileTag.addEventListener("onclick", function () {
+    mobileTag.addEventListener("touchstart", function () {
         mobileNo = document.querySelector(".mobile-no");
         mobileNo.classList.remove("invisible", "d-none");
         emailTag.setAttribute("href", "tel:2347063529084");
     });
 
-    mobile.addEventListener("onmouseup", function () {
+    mobile.addEventListener("touchend", function () {
         mobileNo = document.querySelector(".mobile-no");
         mobileNo.classList.add("invisible", "d-none");
         emailTag.setAttribute("href", "tel:15555555555");
