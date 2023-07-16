@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         emailTag.setAttribute("href", "tel:2347063529084");
     });
 
-    mobile.addEventListener("touchend", function () {
+    mobile.addEventListener("touchcancel", function () {
         mobileNo = document.querySelector(".mobile-no");
         mobileNo.classList.add("invisible", "d-none");
         emailTag.setAttribute("href", "tel:15555555555");
